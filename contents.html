@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, user-scalable=yes, maximum-scale=1.0, minimum-scale=1.0">
+		<meta name="description" content="ホームページサンプル株式会社の取り組み - ホームページサンプル株式会社のサイトです">
+		<title>学習用コンテンツ | 株式会社METIS</title>
+		<link rel="profile" href="http://gmpg.org/xfn/11">
+		<link rel="stylesheet" type="text/css" media="all" href="style.css">
+		<!--[if lt IE 9]>
+			<script src="js/html5.js"></script>
+			<script src="js/css3-mediaqueries.js"></script>
+		<![endif]-->
+		<script src="js/jquery1.4.4.min.js"></script>
+		<script src="js/script.js"></script>
+		<script src="js/float.js"></script>		
+		<link href="css/colorbox.css" rel="stylesheet"/>
+		<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+		<script src="./js/jquery.colorbox-min.js"></script>
+		<script src="./js/jquery.colorbox-ja.js"></script>
+		<script>
+		 $(document).ready(function(){
+			 $(".iframe").colorbox({iframe:true, width:"100%", height:"80%"});
+		 });
+		</script>
+	</head>
+
+	<body>
+
+		<header id="header" role="banner">
+			<div class="logo">
+				<a href="index.html" title="ホームページサンプル株式会社" rel="home">株式会社METIS</a>
+			</div>
+		</header>
+
+		<nav id="mainNav">
+			<div class="inner">
+				<a class="menu" id="menu"><span>MENU</span></a>
+				<div class="panel">
+					<ul>
+						<li class="current-menu-item"><a href="index.html"><strong>トップページ</strong><span>Top</span></a></li>
+						<li><a href="profile.html"><strong>自己紹介</strong><span>Profile</span></a></li>						
+						<li><a><strong>生徒の方</strong><span>Student</span></a>
+							<ul class="sub-menu">
+								<li><a href="kawai.html">河合塾の方</a></li>
+								<li><a href="contens.html">学習コンテンツ</a></li>
+							</ul>
+						</li>
+						<li><a href="teacher.html"><strong>指導者の方</strong><span>Teacher</span></a></li>
+						<li><a href="products.html"><strong>商品紹介</strong><span>Products</span></a></li>						
+						<li><a href="contact.html"><strong>お問い合わせ</strong><span>Contact</span></a></li>
+					</ul>
+				</div>
+			</div>
+p		</nav>
+
+		<div id="wrapper">
+
+			<section id="main">
+				<section id="post-250" class="content">
+					<h3 class="heading">学習用コンテンツ</h3>
+					各種学習アドバイスや学習ツールを掲載しています。
+					<article class="post">
+						<h3>数学力向上ツール</h3>
+						<ul>
+							<li><a class="iframe" href="contents/hashira.html" title="数学の柱">◇数学の問題の解き方と学習の柱</a></li>
+							<li>問題読解における着眼点</li>
+							<ul id="chakugan">
+								<li>解き方を考える以前に、問題がどれだけ深く読み取れているかで大きく差がつきます。<br>
+									問題を読み取る際「何に注目するか」「どんな姿勢で読み取るか」を学び、問題の読み方を鍛えましょう。
+									<li onclick="obj=document.getElementById('chakugan-sushiki').style; obj.display=(obj.display=='none')?'block':'none';">
+										<a style="cursor:pointer;">数式を読み取るときの着眼点</a>
+									</li>
+									<ul id="chakugan-sushiki" style="display:none;clear:both;">
+										<h4>式の形</h4>
+										<li><a class="iframe" href="contents/2zisiki.html" title="x,yの２次式">x,yの２次式</a></li>
+										<li><a class="iframe" href="contents/taisyou.html" title="対称性のある式">対称性のある式</a></li>
+										<li><a class="iframe" href="contents/mouten.html" title="図形的意味が盲点になりやすい式">図形的意味が盲点になりやすい式</a></li>
+										<li><a class="iframe" href="contents/gausu.html" title="ガウス記号">ガウス記号</a></li>
+										<h4>関数</h4>
+										<li><a class="iframe" href="contents/max_min.html" title="最大値・最小値">最大値・最小値</a></li>
+										<li><a class="iframe" href="contents/renzoku.html" title="連続">連続</a></li>
+										<li><a class="iframe" href="contents/bibunkanou.html" title="微分可能">微分可能</a></li>
+										<li><a class="iframe" href="contents/bibunkeisu.html" title="微分係数・導関数">微分係数・導関数</a></li>
+										<li><a class="iframe" href="contents/kyokuchi.html" title="極値">極値</a></li>
+										<li><a class="iframe" href="contents/gyakukansu.html" title="逆関数">逆関数</a></li>
+										<h4>数列</h4>
+										<li><a class="iframe" href="contents/arithmetical.html" title="等差数列">等差数列</a></li>
+										<li><a class="iframe" href="contents/group.html" title="群数列">群数列</a></li>
+										<h4>数</h4>
+										<li><a class="iframe" href="contents/kind.html" title="数の種類">数の種類</a></li>
+										<li><a class="iframe" href="contents/answer.html" title="解">解</a></li>
+										<li><a class="iframe" href="contents/largeandsmall.html" title="大小">大小</a></li>
+										<li><a class="iframe" href="contents/digit.html" title="桁数・最高位の数">桁数・最高位の数</a></li>
+										<li><a class="iframe" href="contents/p-ary.html" title="p進法">p進法</a></li>
+										<h4>極限</h4>
+										<li><a class="iframe" href="contents/infinity.html" title="無限級数">無限級数</a></li>
+									</ul>
+
+									<li onclick="obj=document.getElementById('chakugan-zukei').style; obj.display=(obj.display=='none')?'block':'none';">
+										<a style="cursor:pointer;">図形を読み取るときの着眼点</a>
+									</li>
+									<ul id="chakugan-zukei" style="display:none;clear:both;">
+										<h4>定義・性質</h4>
+										<li><a class="iframe" href="contents/sankaku.html" title="三角形の心">三角形の心</a></li>
+										<li><a class="iframe" href="contents/kyokushin.html" title="曲線の定義・特徴">曲線の定義・特徴</a></li>
+										<li><a class="iframe" href="contents/curve.html" title="２次曲線">２次曲線</a></li>
+										<h4>図形</h4>
+										<li><a class="iframe" href="contents/seimarukakkei.html" title="正◯角形">正◯角形</a></li>
+										<li><a class="iframe" href="contents/tyokusen.html" title="直線">直線</a></li>
+										<li><a class="iframe" href="contents/heimen.html" title="平面">平面</a></li>
+										<h4>曲線</h4>
+										<li><a class="iframe" href="contents/graphandkyokusen.html" title="グラフ・曲線を書く時に">グラフ・曲線を書く時に</a></li>
+										<li><a class="iframe" href="contents/kansitetaisyou.html" title="〜に関して対称"></a>〜に関して対称</li>
+										<h4>状態</h4>
+										<li><a class="iframe" href="contents/sessuru.html" title="接する">接する</a></li>
+										<li><a class="iframe" href="contents/3ten.html" title="３点が同一直線上">３点が同一直線上</a></li>
+										<li><a class="iframe" href="contents/4ten.html" title="４点が同一円周上">４点が同一円周上</a></li>
+										<li><a class="iframe" href="contents/3tyokusen.html" title="３直線が１点で交わる">３直線が１点で交わる</a></li>
+										<h4>基礎概念</h4>
+										<li><a class="iframe" href="contents/muki.html" title="向き">向き</a></li>
+									</ul>
+
+									<li onclick="obj=document.getElementById('chakugan-bunnya').style; obj.display=(obj.display=='none')?'block':'none';">
+										<a style="cursor:pointer;">分野ごとの読解における着眼点</a>
+									</li>
+									<ul id="chakugan-bunnya" style="display:none;clear:both;">
+										<li><a class="iframe" href="contents/.html" title="三角比">三角比</a></li>
+										<li><a class="iframe" href="contents/.html" title="整数">整数</a></li>
+										<li><a class="iframe" href="contents/.html" title="場合の数">場合の数</a></li>
+										<li><a class="iframe" href="contents/.html" title="整式">整式</a></li>
+										<li><a class="iframe" href="contents/.html" title="図形と方程式">図形と方程式</a></li>
+										<li><a class="iframe" href="contents/.html" title="三角関数">三角関数</a></li>
+										<li><a class="iframe" href="contents/.html" title="対数">対数</a></li>
+										<li><a class="iframe" href="contents/.html" title="数列">数列</a></li>
+										<li><a class="iframe" href="contents/.html" title="ベクトル">ベクトル</a></li>
+										<li><a class="iframe" href="contents/.html" title="複素数">複素数</a></li>
+										<li><a class="iframe" href="contents/.html" title="極限">極限</a></li>
+									</ul>
+
+									<li onclick="obj=document.getElementById('chakugan-keyword').style; obj.display=(obj.display=='none')?'block':'none';">
+										<a style="cursor:pointer;">キーワード毎の着眼点</a>
+									</li>
+									<ul id="chakugan-keyword" style="display:none;clear:both;">
+										<li><a class="iframe" href="contents/.html" title="ならば">ならば</a></li>
+										<li><a class="iframe" href="contents/.html" title="任意の〜に対して">任意の～に対して…</a></li>
+										<li><a class="iframe" href="contents/.html" title="必要・十分・同値">必要・十分・同値</a></li>
+										<li><a class="iframe" href="contents/.html" title="変化・一定・範囲・最大最小">変化・一定・範囲・最大最小</a></li>
+										<li><a class="iframe" href="contents/.html" title="値域">値域</a></li>
+										<li><a class="iframe" href="contents/.html" title="一定">一定</a></li>
+										<li><a class="iframe" href="contents/.html" title="周期">周期</a></li>
+										<li><a class="iframe" href="contents/.html" title="〜となる最大の">～となる最大の…</a></li>
+									</ul>
+
+									<li onclick="obj=document.getElementById('hinshutu-theme').style; obj.display=(obj.display=='none')?'block':'none';">
+										<a style="cursor:pointer;">入試で頻出のテーマ</a>
+									</li>
+									<ul id="hinsyutu-theme" style="display:none;clear:both;">
+										<li><a class="iframe" href="contents/.html" title="漸化式で定まる数列">漸化式で定まる数列</a></li>
+										<li><a class="iframe" href="contents/.html" title="N回後の確率">N回後の確率</a></li>
+										<li><a class="iframe" href="contents/.html" title="積分方程式">積分方程式</a></li>
+										<li><a class="iframe" href="contents/.html" title="物理量に関する問題">物理量に関する問題</a></li>
+									</ul>
+							</ul>
+						</ul>
+						
+							<h3>他の科目の学力向上ツール</h3>
+							<ul>
+								<li><a class="iframe" href="contents/hashira.html" title="数学の柱">数学の問題の解き方と学習の柱</a></li>
+								<li onclick="obj=document.getElementById('chakugan').style; obj.display=(obj.display=='none')?'block':'none';">
+									<a style="cursor:pointer;">問題読解における着眼点</a>
+								</li>
+								<ul id="chakugan" style="display:none;clear:both;">
+								</ul>
+							</ul>
+							
+						<h3>学習アドバイス</h3>
+						<h3>特定大学受験対策</h3>
+						<h3>テスト</h3>
+						<a class="iframe" href="./flash/flash.html" title="フラッシュテスト">フラッシュテスト</a>
+
+					</article>
+				</section>
+				<div class="pagenav">
+					<span class="prev"><a href="sample.html" rel="prev">&laquo; 前のページ</a></span>
+					<span class="next"></span>
+				</div>
+			</section>
+
+			<aside id="sidebar">
+				<section>
+					<h3 class="heading"><span>コンテンツマップ</span></h3>
+					<article>
+						<ul>
+							<li><a href="#">数学力向上ツール</a></li>
+							<li><a href="#">他の科目の学力向上ツール</a></li>
+							<li><a href="#">学習アドバイス</a></li>
+							<li><a href="#">特定大学受験対策</a></li>
+						</ul>
+					</article>
+				</section>
+			</aside>
+
+			<footer id="footer">
+				<div class="inner">
+					<div id="info" class="grid">
+						<div class="logo">
+							<a href="index.html" title="ホームページサンプル株式会社" rel="home">株式会社METIS</a>
+						</div>
+					</div>
+					<div class="menu">
+						<ul class="footnav">
+							<li><a href="index.html">トップページ</a></li>
+							<li><a href="profile.html">自己紹介</a></li>
+							<li><a href="kawai.html">河合塾の方</a></li>
+							<li><a href="contents.html">学習コンテンツ</a></li>
+							<li><a href="teacher.html">指導者の方</a></li>
+							<li><a href="products.html">商品紹介</a></li>
+							<li><a href="cont.html">お問い合わせ</a></li>
+						</ul>
+					</div>
+
+				</div>
+			</footer>
+
+			<p id="copyright">Copyright(c) 2016 ホームページサンプル株式会社 All Rights Reserved. Design by <a href="http://f-tpl.com" target="_blank" rel="nofollow">http://f-tpl.com</a></p><!-- ←クレジット表記を外す場合はシリアルキーが必要です http://f-tpl.com/credit/ -->
+
+		</div>
+
+	</body>
+</html>
