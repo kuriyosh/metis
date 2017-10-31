@@ -751,6 +751,7 @@ img.alignleft{margin:0 7px 2px 0;}
 }
 
 
+/* スマホ用 */
 @media only screen and (max-width:640px){
 	#header{height:auto;padding-bottom:20px;}
 	

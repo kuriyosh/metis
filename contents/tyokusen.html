@@ -13,27 +13,32 @@
 		<![endif]-->
 		<script src="../js/jquery1.4.4.min.js"></script>
 		<script src="../js/script.js"></script>
+		<script async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS_CHTML"></script>
+		<script type="text/x-mathjax-config">
+		 MathJax.Hub.Config({
+			 tex2jax: {
+				 inlineMath: [['$','$'], ['\\(','\\)']],
+				 processEscapes: true
+			 },
+			 CommonHTML: { matchFontHeight: false },
+			 displayAlign: "left",
+			 displayIndent: "2em"
+		 });
+		</script>
+		<script async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS_CHTML"></script>
 	</head>
 
 	<body>
 		<div id="wrapper">
 			<section id="main" >
 				<section id="post-250" class="content">
-					<h3 class="heading">曲線</h3>
+					<h3 class="heading">図形</h3>
 					<article class="post">
-						<h3>グラフ・曲線を書く時に</h3>
+						<h3>直線</h3>
 						<ul>
-							<li>先に調べる：★定義域</li>
-							<li>(大域的情報) ★区間毎の端っこの様子、漸近線<br>
-							　　　　　　★周期性・対称性</li>
-							<li>後で調べる：★導関数の正負から増減、極値</li>
-							<li>(局所的情報) ★（2階導関数の正負から凹凸、変曲点）</li>
+							<li>★「通る1点」と「方向」のみで決まる</li>
+							<li>★ 空間の中では「２平面の共通部分」として決まる</li>
 						</ul>
-						<ul>
-							<li>★パラメータ（媒介変数）が変化すると点(x,y)が移動する。</li>
-							<li>★速度ベクトル（方向ベクトル）(x'(t), y'(t))の向きが点(x,y)の移動の向きである。</li>
-						</ul>
-						
 
 					</article>
 				</section>
