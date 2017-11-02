@@ -206,6 +206,36 @@ section.content article{
 section.toppage article,section.content .archive{border:0;}
 
 
+/* 最近の気づき用BOX */
+.recent {
+    position: relative;
+    margin: 2em 0 2em 40px;
+    padding: 8px 15px;
+    background: #fff0c6;
+    border-radius: 30px;
+}
+.recent:before{font-family: FontAwesome;
+    content: "\f111";
+    position: absolute;
+    font-size: 15px;
+    left: -40px;
+    bottom: 0;
+    color: #fff0c6;
+}
+.recent:after{
+    font-family: FontAwesome;
+    content: "\f111";
+    position: absolute;
+    font-size: 23px;
+    left: -23px;
+    bottom: 0;
+    color: #fff0c6;
+}
+.recent p {
+    margin: 0; 
+    padding: 0;
+}
+
 /* アーカイブページ */
 section.content .archive{
 	padding:0;
@@ -296,7 +326,7 @@ section.content img{
 	overflow:hidden;
 }
 
-#footer .grid{
+#footer .grid
 	margin:0;
 }
 
