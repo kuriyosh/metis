@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ja">
+	
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, user-scalable=yes, maximum-scale=1.0, minimum-scale=1.0">
+		<meta name="description" content="ホームページサンプル株式会社の取り組み - ホームページサンプル株式会社のサイトです">
+		<title>藤田貴志のWebサイト</title>
+		<link rel="profile" href="http://gmpg.org/xfn/11">
+		<link rel="stylesheet" type="text/css" media="all" href="style.css">
+		<!--[if lt IE 9]>
+			<script src="js/html5.js"></script>
+			<script src="js/css3-mediaqueries.js"></script>
+		<![endif]-->
+		
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+		<script src="js/jquery1.4.4.min.js"></script>
+		<script src="js/script.js"></script>
+
+		<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script> 
+		<script src="js/wookmark.min.js"></script>
+		<script>
+		 jQuery(function($){    
+			 var options = {
+				 // レイアウトのオプション
+				 autoResize: true, // リサイズ時にレイアウトを更新
+				 container: $('#container'), //コンテナを指定（CSS の設定で中央寄せ等する場合必要）
+				 //itemWidth: 180, // 列の幅の指定（オプション）
+				 offset: 5, //アイテム間のマージン（オプション）
+				 outerOffset: 10, // コンテナからのオフセット（オプション） 
+				 fillEmptySpace: true // 最後の空いたスペースを「.wookmark-placeholder」で埋める（オプション）
+			 };  
+			 $('.recent').wookmark(options);  
+		 });
+		</script>
+		
+	</head>
+
+	<body>
+		<div id="container" style="position: relative;">
+			<h2>最近の気づき</h2>
+			<div class="recent">
+				■下図の面積が最大となるとき，(扇型APQの面積)×2=(△ABPの面積)が成り立つことを「直観的」に理解できます。2017年7月 <br>
+				<!-- <img src="images/recent/recent_menseki.png" alt="" /> -->
+			</div>
+			<div class="recent">
+				■相手に主張するための「答案」と自分の頭を整理するための「メモ」を混同してる受験生が多すぎます。「制限時間があるから」という言い訳をよく聞きますが、練習すらしようとしてないのでは、できるはずもありません…。2017年5月
+			</div>
+			<div class="recent">
+				■「ラジアン」は「半径分弧長」と読めばわかりやすいのではないでしょうか。2017年4月
+			</div>
+			<div class="recent">
+				■認識していませんでした。2016年8月 <br>
+				<!-- <img src="images/recent/recent_shiki.png" alt="" /> -->
+			</div>
+			<div class="recent">
+				■自然数nに関する次の等式が場合の数として瞬間的に説明されます。2016年6月 <br>
+				<!-- <img src="images/recent/recent_sizensu.gif" alt="" /> -->
+			</div>
+			<div class="recent">
+				■次の点Pの軌跡が幾何的に求まります。2016年5月 <br>
+				<!-- <img src="images/recent/recent_kiseki.png" alt="" /> -->
+			</div>
+
+			<div class="recent">
+				■次の軌跡の問題が幾何的に解けます。2016年4月 <br>
+				<!-- <img src="images/recent/recent_kiseki2.png" alt="" /> -->
+			</div>
+			<div class="recent">
+				■<a href="http://www.me-tis.net/fujita/image/problems/2016toudai-s4.png">2016東大前期 理系第４問</a>は幾何で瞬殺です。2016年3月
+			</div>
+		</div>
+	</body>
+	
+
+</html>

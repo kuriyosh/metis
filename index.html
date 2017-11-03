@@ -12,21 +12,32 @@
 	<script src="js/html5.js"></script>
 	<script src="js/css3-mediaqueries.js"></script>
 	<![endif]-->
+
+	<link href="css/colorbox.css" rel="stylesheet"/>
 	<script src="js/jquery1.4.4.min.js"></script>
 	<script src="js/script.js"></script>
+	<script src="./js/jquery.colorbox-min.js"></script>
+	<script src="./js/jquery.colorbox-ja.js"></script>
+
+	<script>
+	 $(document).ready(function(){
+		 $(".iframe").colorbox({iframe:true, width:"600px", height:"80%"});
+	 });
+	</script>
+	
 </head>
 
 <body>
 
 	<header id="header" role="banner">
 		<div class="logo">
-			<a href="index.html" title="ホームページサンプル株式会社" rel="home">株式会社METIS</a>
+			<a href="index.html" title="株式会社METIS" rel="home">株式会社METIS</a>
 		</div>
 	</header>
 
 	<div id="wrapper">
 		<div id="mainBanner">
-			<img src="board.jpg" alt="ホームページサンプル株式会社のサイトです"><div class="slogan"><h2>株式会社METIS</h2><p>METIS Corporation</p>
+			<img src="board.jpg" alt="株式会社METIS"><div class="slogan"><h2>株式会社METIS</h2><p>METIS Corporation</p>
 		</div>
 	</div>
 
@@ -76,6 +87,7 @@
 					西内昌也先生・宮塚透先生  著　<br>
 					（定価1200円・税込・送料別）<br>
 					限定販売ですので、売り切れの場合はご容赦下さい。
+					<a class="iframe" href="eisaku_detail.html">詳しい内容</a>
 					<p class="readmore"><a href="">購入ページ</a> <br>
 						<f style="font-size:4px">クレジットカード(VISA・Master)、銀行振込、コンビニ、Pay-easy でのお支払いが可能</f>
 					</p>
@@ -89,6 +101,7 @@
 					<h3>物理 プチ問題集 「電磁気」</h3>
 					METIS入試リハーサル事務局編集 <br>
 					(定価700円)
+					<a class="iframe" href="butsuri_detail.html">詳しい内容</a>
 					<p class="readmore"><a href="">購入ページ</a> <br>
 						<f style="font-size:4px">クレジットカード(VISA・Master)、銀行振込、コンビニ、Pay-easy でのお支払いが可能</f>
 					</p>
@@ -133,8 +146,26 @@
 		
 		<article class="post">
 			<h2>講師派遣(大学受験予備校、高等学校、個別指導)</h2>
+			<h3>高等学校・予備校・塾への出講</h3>
+			<h4>派遣内容　→お問い合せはこちら</h4>
+			<ul>■高校派遣（プロ講師を派遣）
+				<li>・定期授業、イベント授業・講演（生徒向け）</li>
+				<li>・アクティブ・ラーニングのコンサルティング（先生向け）</li>
+				<li>・受験指導法レクチャー、教材・カリキュラム作成（先生向け）</li>
+			</ul>
+			<ul>■塾・予備校派遣（プロ講師を派遣）
+				<li>・各種業務（応相談</li>
+			</ul>
+
+			<h4>派遣講師</h4>
+			<ul>
+				<li>【数学】藤田貴志（WebSite）</li>
+				<li>【英語】応相談</li>
+			</ul>
 			
-			
+			<h3>個別指導員の派遣</h3>
+			学力・指導力の両面において優秀な学生を派遣します。 <br>
+			→ <a href="http://www.me-tis.net/aboutMETIS/hometeacher.html">個別指導員の派遣に関する詳細</a>
 		</article>
 
 		
@@ -144,7 +175,7 @@
 				<!-- お知らせ欄 -->
 				<div class="note">
 					<ul>
-						<li>河合塾で担当する冬期講習の案内</li>
+						<li>■阪大入試対策予想問題集を販売中（数学の添削付き商品も）→ <a href="http://www.me-tis.net/rehearsal/index.html">詳細</a> </li>
 					</ul>
 				</div>
 				
@@ -155,27 +186,21 @@
 			<table>
 				<tr>
 					<th>会社名</th>
-					<td>ホームページサンプル株式会社（英語表記 Homepage sample Inc.）</td>
+					<td>株式会社メーティス</td>
 				</tr>
 				<tr>
 					<th>設立</th>
-					<td>平成10年1月10日</td>
+					<td>平成25年7月19日</td>
 				</tr>
 				<tr>
 					<th>事業内容</th>
-					<td>IT・マーケティング・福祉など</td>
+					<td>教材作成・講師派遣</td>
 				</tr>
 				<tr>
-					<th>住所</th>
-					<td>〒012-3456 見本県見本市サンプル1-2</td>
+					<td align="center" colspan="2"><a href="http://www.me-tis.net/aboutMETIS/philosophy.html">会社理念</a></td>
 				</tr>
 				<tr>
-					<th>電話番号</th>
-					<td>0123-4567-89012</td>
-				</tr>
-				<tr>
-					<th>メールアドレス</th>
-					<td>info@example.com</td>
+					<td align="center" colspan="2"><a href="http://www.me-tis.net/aboutMETIS/privacypolicy.html">プライバシーポリシー</a></td>
 				</tr>
 			</table>
 		</article>
@@ -188,15 +213,14 @@
 		<div class="inner">
 			<div id="info" class="grid">
 				<div class="logo">
-					<a href="index.html" title="ホームページサンプル株式会社" rel="home">株式会社METIS</a>
+					<a href="index.html" title="株式会社METIS" rel="home">株式会社METIS</a>
 				</div>
 			</div>
 			<div class="menu">
 				<ul class="footnav">
 					<li><a href="index.html">トップページ</a></li>
 					<li><a href="profile.html">自己紹介</a></li>
-					<li><a href="kawai.html">河合塾の方</a></li>
-					<li><a href="contents.html">学習コンテンツ</a></li>
+					<li><a href="students.html">河合塾の方</a></li>
 					<li><a href="teacher.html">指導者の方</a></li>
 					<li><a href="products.html">商品紹介</a></li>
 					<li><a href="contact.html">お問い合わせ</a></li>
@@ -208,4 +232,5 @@
 	<p id="copyright">Copyright(c) 2017 藤田貴志のWebページ All Rights Reserved. Design by <a href="http://f-tpl.com" target="_blank" rel="nofollow">http://f-tpl.com</a></p><!-- ←クレジット表記を外す場合はシリアルキーが必要です http://f-tpl.com/credit/ -->
 
 </body>
+
 </html>
