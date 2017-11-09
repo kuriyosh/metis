@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, user-scalable=yes, maximum-scale=1.0, minimum-scale=1.0">
+		<meta name="description" content="ホームページサンプル株式会社の取り組み - ホームページサンプル株式会社のサイトです">
+		<link rel="profile" href="http://gmpg.org/xfn/11">
+		<link rel="stylesheet" type="text/css" media="all" href="../style.css">
+		<!--[if lt IE 9]>
+			<script src="js/html5.js"></script>
+			<script src="js/css3-mediaqueries.js"></script>
+		<![endif]-->
+		<script src="../js/jquery1.4.4.min.js"></script>
+		<script src="../js/script.js"></script>
+		<script async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS_CHTML"></script>
+		<script type="text/x-mathjax-config">
+		 MathJax.Hub.Config({
+			 tex2jax: {
+				 inlineMath: [['$','$'], ['\\(','\\)']],
+				 processEscapes: true
+			 },
+			 CommonHTML: { matchFontHeight: false },
+			 displayAlign: "left",
+			 displayIndent: "2em"
+		 });
+		</script>
+		<script async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS_CHTML"></script>
+	</head>
+
+	<body>
+		<div id="wrapper">
+			<section id="main" >
+				<section id="post-250" class="content">
+					<h3 class="heading">分野ごとの読解における着眼点</h3>
+					<article class="post">
+						<h3>三角関数</h3>
+						<ul>■定義に従って読み取る
+							<li>原点Oを中心として点(1,0)を反時計回りに角θだけ回したところに点Pがあるとき</li>
+							<li>【cos,sinの読み取り方】</li>
+							<li>・cosθ → PのX座標、sinθ → PのY座標</li>
+							<li>・(cosθ, sinθ) → Pの座標</li>
+							<li>・(cosθ, sinθ) →\( \vec{OP}\)の成分</li>
+							<li>・tanθ → 直線OPの傾き</li>
+						</ul>
+						<ul>■式の形
+							<li>・<b>sinとcosの対称式</b> → sin+cos=tとおくと簡単な表示に書き換えられる</li>
+							<li>・<b>sinとcosの2次式</b> → 倍角公式、半角公式を利用してsin,cosの1次式に書き換えられる</li>
+							<li>・sinとcosの1次式</li>
+							<ul>
+								<li><b>sin◯+cos◯</b> → 合成すると1つにまとまる</li>
+								<li><b>sin◯+sin□</b> → 和積公式を用いるとまとまるかも</li>
+								<li><b>cos◯+cos□</b> → 和積公式を用いるとまとまるかも</li>
+								<li><b>sin◯+cos□</b> → sinかcosに揃えれば上記のどれかになる</li>
+							</ul>
+						</ul>
+
+
+					</article>
+				</section>
+			</section>
+		</div>
+
+	</body>
+</html>

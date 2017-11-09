@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, user-scalable=yes, maximum-scale=1.0, minimum-scale=1.0">
+		<meta name="description" content="ホームページサンプル株式会社の取り組み - ホームページサンプル株式会社のサイトです">
+		<link rel="profile" href="http://gmpg.org/xfn/11">
+		<link rel="stylesheet" type="text/css" media="all" href="../style.css">
+		<!--[if lt IE 9]>
+			<script src="js/html5.js"></script>
+			<script src="js/css3-mediaqueries.js"></script>
+		<![endif]-->
+		<script src="../js/jquery1.4.4.min.js"></script>
+		<script src="../js/script.js"></script>
+	</head>
+
+	<body>
+		<div id="wrapper">
+			<section id="main" >
+				<section id="post-250" class="content">
+					<h3 class="heading">状態</h3>
+					<article class="post">
+						<h3>接する</h3>
+						<ul>
+							<li>★ 円と直線（球と平面）が接する →「中心，接点を結ぶと90°」</li>
+							<li>★ 円と円（球と球）が接する →「中心，中心，接点が同一直線上」</li>
+							<li>★ 楕円と直線が接する →</li>
+							<li>・適当な拡大縮小で「円と直線」に帰着</li>
+							<li>・楕円の接線公式</li>
+							<li>・連立してできる2次方程式が重解をもつ</li>
+							<li>★ 2つの関数のグラフが接する</li>
+							<li>・整式f(x),g(x)の場合 → f(x)-g(x)が(x-α)2を因数にもつ</li>
+							<li>・一般の関数f(x),g(x)の場合 → f(t)=g(t)かつf'(t)=g'(t)</li>
+						</ul>
+
+
+					</article>
+				</section>
+			</section>
+		</div>
+
+	</body>
+</html>

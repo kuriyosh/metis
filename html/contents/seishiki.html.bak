@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, user-scalable=yes, maximum-scale=1.0, minimum-scale=1.0">
+		<meta name="description" content="ホームページサンプル株式会社の取り組み - ホームページサンプル株式会社のサイトです">
+		<link rel="profile" href="http://gmpg.org/xfn/11">
+		<link rel="stylesheet" type="text/css" media="all" href="../style.css">
+		<!--[if lt IE 9]>
+			<script src="js/html5.js"></script>
+			<script src="js/css3-mediaqueries.js"></script>
+		<![endif]-->
+		<script src="../js/jquery1.4.4.min.js"></script>
+		<script src="../js/script.js"></script>
+		<script async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS_CHTML"></script>
+		<script type="text/x-mathjax-config">
+		 MathJax.Hub.Config({
+			 tex2jax: {
+				 inlineMath: [['$','$'], ['\\(','\\)']],
+				 processEscapes: true
+			 },
+			 CommonHTML: { matchFontHeight: false },
+			 displayAlign: "left",
+			 displayIndent: "2em"
+		 });
+		</script>
+		<script async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS_CHTML"></script>
+	</head>
+
+	<body>
+		<div id="wrapper">
+			<section id="main" >
+				<section id="post-250" class="content">
+					<h3 class="heading">分野ごとの読解における着眼点</h3>
+					<article class="post">
+						<h3>整式の読みとり</h3>
+						<ul>
+							<li>■次数と係数で特徴づける</li>
+							<li>■表示方法を工夫する（展開，因数分解，除法の式，x-aの整式，など）</li>
+							<li>■四則演算は係数だけでできる</li>
+							<li>■2つの関数の差の式を考えると</li>
+							<li>・「因数」「=0の解」「グラフの共有点」と言い換えられる</li>
+							<li>・「多重因数」「=0の重解」「グラフの接点」と言い換えられる</li>
+						</ul>
+
+					</article>
+				</section>
+			</section>
+		</div>
+
+	</body>
+</html>
